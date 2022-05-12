@@ -7,7 +7,7 @@ exports.handler = async (event, context, cb) => {
     
     return {
         headers:{
-           'Access-Control-Allow-Origin':'*'
+           'Access-Control-Allow-Origin': '*'
         },
         statusCode:200,
         // body must be a string, can stringify not strings to meet this requirement
